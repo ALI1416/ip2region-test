@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>ip2region-test</artifactId>
+  <version>1.0.0</version>
+
+  <parent>
+    <groupId>cn.404z</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.1.0</version>
+  </parent>
+
+  <name>${project.artifactId}</name>
+  <description>IP Address To Region Test IP地址转区域测试</description>
+  <url>https://github.com/ALI1416/ip2region-test</url>
+
+  <dependencies>
+    <!-- 必须依赖 -->
+    <dependency>
+      <groupId>cn.404z</groupId>
+      <artifactId>ip2region</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.lionsoul</groupId>
+      <artifactId>ip2region</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+    <!-- 额外依赖(运行未报错，不需要加) -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.32</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-core</artifactId>
+      <version>1.2.6</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.6</version>
+    </dependency>
+  </dependencies>
+
+</project>
