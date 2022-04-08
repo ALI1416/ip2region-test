@@ -21,7 +21,7 @@
     <dependency>
       <groupId>cn.404z</groupId>
       <artifactId>ip2region</artifactId>
-      <version>1.0.0</version>
+      <version>1.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.lionsoul</groupId>
@@ -30,19 +30,9 @@
     </dependency>
     <!-- 额外依赖(运行未报错，不需要加) -->
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.7.32</version>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-core</artifactId>
-      <version>1.2.6</version>
-    </dependency>
-    <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>1.2.6</version>
+      <version>1.2.11</version>
     </dependency>
   </dependencies>
 
